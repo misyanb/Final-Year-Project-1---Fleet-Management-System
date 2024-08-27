@@ -1,0 +1,40 @@
+.navbar-brand:hover {
+    color: #007bff; /* Change this to the color you want */
+    cursor: pointer; /* Optional: Change the cursor to a pointer */
+}
+body {
+    background-image: url(images/fleet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: rgba(255, 255, 255, 0.96); /* Add this line */
+}
+.form-group {
+    margin-bottom: 30px;
+}
+.book-details {
+    background: #f5f5f5;
+    padding: 50px;
+}
+header p.lead {
+    font-weight: normal; /* Makes the text less bold */
+    margin-top: 10px; /* Adds some space between the heading and the paragraph */
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: smaller;
+    background-color:#686868;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
